@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Palindrome Checker module.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function palindrome_checker_help($route_name, $route_match) {
+  switch ($route_name) {
+    case 'help.page.palindrome_checker':
+      return '<p>Use this module to check if a string is a palindrome. Enter a string and it will tell you.</p>';
+  }
+}

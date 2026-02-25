@@ -1,0 +1,7 @@
+palindrome_checker.check:
+  path: '/palindrome-check'
+  defaults:
+    _controller: '\Drupal\palindrome_checker\Controller\PalindromeController::check'
+    _title: 'Palindrome Checker'
+  requirements:
+    _permission: 'access content'
