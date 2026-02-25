@@ -4,21 +4,21 @@ A simple custom module for Drupal 11 that checks whether a given string is a pal
 
 ## Features
 
-- Custom Drupal module
-- Implements `hook_help()`
-- Simple route to check palindromes via URL
-- Example:
-  `/palindrome-check?text=racecar`
+- Custom Drupal module  
+- Implements `hook_help()`  
+- Simple route to check palindromes via URL  
 
 ## Installation
 
-1. Copy the module into:
+1. Copy the module into:  
    `web/modules/custom/palindrome_checker`
 
 2. Enable the module:
-   ```bash
-   lando drush en palindrome_checker -y
-   lando drush cr
 
-   Visit:
-   /palindrome-check?text=level
+   lando drush en palindrome_checker -y  
+   lando drush cr  
+
+3. Visit:
+
+   /palindrome-check?text=level  
+
