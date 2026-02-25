@@ -14,11 +14,13 @@ A simple custom module for Drupal 11 that checks whether a given string is a pal
    `web/modules/custom/palindrome_checker`
 
 2. Enable the module:
-
+   ```bash
    lando drush en palindrome_checker -y  
-   lando drush cr  
+   lando drush cr
+      ``` 
 
 3. Visit:
-
-   /palindrome-check?text=level  
+   ```bash
+   /palindrome-check?text=level
+      ```
 
